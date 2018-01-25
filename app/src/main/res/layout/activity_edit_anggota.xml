@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="id.co.imastudio.lab6ormlite.activity.EditAnggotaActivity">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/ed_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="isi nama anggota"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Nama" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/ed_alamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="isi alamat anggota"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Nama" />
+
+    <Button
+        android:id="@+id/btn_update_anggota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/colorAccent"
+        android:text="Update Anggota"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_hapus_anggota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/colorAccent"
+        android:text="Hapus Anggota"
+        android:textColor="@android:color/white" />
+</LinearLayout>
